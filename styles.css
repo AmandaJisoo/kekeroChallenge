@@ -41,7 +41,6 @@ body {
 
 .card {
   position: relative;
-  cursor: url("Assets/Cursors/GhostHover.cur"), auto;
   height: 175px;
   width: 125px;
 }
@@ -86,33 +85,10 @@ body {
   height: 47px;
 }
 
-.card-face:hover .cob-web {
+/* .card-face:hover .cob-web {
   width: 52px;
   height: 52px;
-}
-
-.cob-web-top-left {
-  transform: rotate(270deg);
-  top: 0;
-  left: 0;
-}
-
-.cob-web-top-right {
-  top: 0;
-  right: 0;
-}
-
-.cob-web-bottom-left {
-  transform: rotate(180deg);
-  bottom: 0;
-  left: 0;
-}
-
-.cob-web-bottom-right {
-  transform: rotate(90deg);
-  bottom: 0;
-  right: 0;
-}
+} */
 
 .star {
   align-self: flex-start;
@@ -128,6 +104,8 @@ body {
   position: relative;
   transition: transform 100ms ease-in-out;
   transform: scale(.9);
+  width: 100%;
+  height: 100%;
 }
 
 .card-front:hover .card-value {
